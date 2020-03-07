@@ -22,7 +22,7 @@ if [ "${BASH_SOURCE[0]}" != "${0}" ]; then
 fi
 
 set -e
-LINEAGE_ROOT="$MY_DIR"/../../..
+HAVOC_ROOT="$MY_DIR"/../../..
 
 # Required!
 export DEVICE=payton
@@ -33,7 +33,7 @@ export DEVICE_BRINGUP_YEAR=2018
 
 "./../../${VENDOR}/${DEVICE_COMMON}/extract-files.sh" "$@"
 
-BLOB_ROOT="$LINEAGE_ROOT"/vendor/"$VENDOR"/"$DEVICE"/proprietary
+BLOB_ROOT="$HAVOC_ROOT"/vendor/"$VENDOR"/"$DEVICE"/proprietary
 
 # Load ZAF configs from vendor
 ZAF_CORE="$BLOB_ROOT"/vendor/lib/libzaf_core.so

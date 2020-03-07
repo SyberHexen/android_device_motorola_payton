@@ -37,7 +37,7 @@ if [ "${BASH_SOURCE[0]}" != "${0}" ]; then
 fi
 
 set -e
-LINEAGE_ROOT="$MY_DIR"/../../..
+HAVOC_ROOT="$MY_DIR"/../../..
 
 # Required!
 export DEVICE=payton

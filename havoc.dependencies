@@ -4,5 +4,11 @@
     "repository":  "SyberHexen/android_device_motorola_sdm660-common",
     "target_path": "device/motorola/sdm660-common",
     "branch":      "Havoc/10.0"
+  },
+  {
+    "remote":      "github",
+    "repository":  "trpsl/packages_apps_MotoCamera2",
+    "target_path": "packages/apps/MotoCamera2",
+    "branch":      "ten"
   }
 ]

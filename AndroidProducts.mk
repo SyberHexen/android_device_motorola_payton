@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/havoc_payton.mk
+    $(LOCAL_DIR)/rr_payton.mk
 
 COMMON_LUNCH_CHOICES := \
-    havoc_payton-user \
-    havoc_payton-userdebug \
-    havoc_payton-eng
+    rr_payton-user \
+    rr_payton-userdebug \
+    rr_payton-eng
